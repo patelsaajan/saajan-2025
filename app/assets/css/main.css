@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+@import "./icons.css";
+
+@theme {
+    --color-primary     : oklch(0.5477 0.2174 22.64);
+    --color-secondary   : oklch(0.62 0.15 210);
+    --color-background  : oklch(0.98 0.01 95);
+    --color-text-primary: oklch(0.05 0 0)
+}
+
+:root {
+    background-color: var(--color-background)
+}
+  
+
+@layer utilities {
+    .container {
+      @apply px-8 my-4 max-w-none w-full;
+    }
+  }  
