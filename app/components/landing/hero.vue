@@ -7,10 +7,12 @@
                 class="absolute top-10 right-0 after:absolute after:top-0 after:left-0 after:size-full after:bg-primary/15 "
             >
                 <NuxtImg
+                    fit="cover"
                     src="/images/hero.jpg"
                     height="700"
                     width="900"
                     loading="lazy"
+                    class="w-[900px] h-[700px] object-cover"
                 />
             </div>
         </Transition>
