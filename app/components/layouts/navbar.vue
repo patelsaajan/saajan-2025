@@ -22,6 +22,14 @@
         >
             BLOG
         </nuxt-link>            
+        <a 
+            href="https://soyboy.saajanpatel.co.uk"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="cursor-pointer font-semibold w-fit hover:text-primary transform hover:scale-105 transition-all duration-100"
+        >
+            RECIPES
+        </a>
         <nuxt-link 
             class="cursor-pointer font-semibold w-fit hover:text-primary transform hover:scale-105 transition-all duration-100"
         >
