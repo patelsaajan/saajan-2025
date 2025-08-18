@@ -115,7 +115,7 @@
     opacity: 1;
   }
   .hero-icon-enter-from {
-  transform: translateX(-200%) scale(0.5);
+  transform: translateX(-400%) scale(0.5);
 }
 
 .hero-icon-enter-to {
