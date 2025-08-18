@@ -1,6 +1,6 @@
 <template>
-  <div class="flex justify-between overflow-hidden">
-    <TransitionGroup name="nav-slide">
+  <div class="flex justify-between overflow-x-visible w-full">
+    <TransitionGroup name="nav-slide" class="overflow-y-hiddem">
     <NuxtLink
         v-if="showNav"
         to="/"
