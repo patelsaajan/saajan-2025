@@ -12,16 +12,19 @@
                     height="700"
                     width="900"
                     loading="lazy"
-                    class="w-full md:w-[900px] aspect-3/2 object-cover"
+                    class="w-full sm:w-[750px] aspect-3/2 object-cover"
                 />
             </div>
         </Transition>
-      <div class="overflow-hidden">
-        <Transition name="hero-text">
-          <span 
+        <div class="overflow-hidden">
+          <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 mt-20">
+            <LandingMarquee />
+          </div>
+          <Transition name="hero-text">
+            <span 
             v-if="showHero"
             class="block text-4xl sm:text-5xl md:text-7xl xl:text-8xl 2xl:text-9xl uppercase"
-          >
+            >
             Pragmatic.
           </span>
         </Transition>
@@ -85,7 +88,7 @@
     showHero.value = true
     setTimeout(() => {
       showIcons.value = true
-    }, 500) // 1s delay before icons slide in
+    }, 250) // 1s delay before icons slide in
   })
   </script>
   
@@ -112,12 +115,13 @@
     opacity: 1;
   }
   .hero-icon-enter-from {
-    transform: translateX(-200%);
-  }
-  
-  .hero-icon-enter-to {
-    transform: translateX(0);
-  }
+  transform: translateX(-200%) scale(0.5);
+}
+
+.hero-icon-enter-to {
+  transform: translateX(0) scale(1);
+}
+
   
   </style>
   

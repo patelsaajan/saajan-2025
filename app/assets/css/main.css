@@ -16,6 +16,10 @@
 
 @layer utilities {
     .container {
-      @apply px-8 my-4 max-w-none w-full;
+      @apply px-4 md:px-16 my-4 max-w-none w-full;
+
+      @media (min-width: 1900px) {
+        @apply px-80
+      }
     }
   }  
