@@ -1,12 +1,17 @@
 <template>
-  <div class="flex justify-between">
+  <div class="flex justify-between overflow-hidden">
+    <TransitionGroup name="nav-slide">
     <NuxtLink
+        v-if="showNav"
         to="/"
-        class="cursor-pointer font-semibold w-fit hover:text-secondary transform hover:scale-105 transition-all duration-100"
+        class="cursor-pointer font-semibold w-fit hover:text-secondary transform hover:scale-105 transitionGroup-all duration-100"
     >
         SAAJAN PATEL
     </NuxtLink>
-    <span class="flex gap-8">
+    <span 
+         v-if="showNav"
+        class="flex gap-8"
+    >
         <!-- <nuxt-link 
             class="cursor-pointer font-semibold w-fit hover:text-primary transform hover:scale-105 transition-all duration-100"
         >
@@ -36,11 +41,30 @@
             CONTACT
         </nuxt-link> -->
         </span>
+    </TransitionGroup>
   </div>
 </template>
 
 <script setup lang="ts">
-import { NuxtLink } from '#components';
+const showNav = ref(false);
+
+onMounted(() => {
+    showNav.value = true
+})
 
   
 </script>
+
+<style>
+.nav-slide-enter-active {
+    transition: transform 1s ease;
+}
+
+.nav-slide-enter-from {
+    transform: translateY(100%);
+}
+.nav-slide-enter-to {
+    transform: translateY(0);
+}
+  
+  </style>
