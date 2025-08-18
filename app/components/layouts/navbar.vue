@@ -2,26 +2,26 @@
   <div class="flex justify-between">
     <NuxtLink
         to="/"
-        class="text-3xl font-bold"
+        class="cursor-pointer font-semibold w-fit hover:text-secondary transform hover:scale-105 transition-all duration-100"
     >
-        Saajan Patel
+        SAAJAN PATEL
     </NuxtLink>
     <span class="flex gap-8">
-        <nuxt-link 
+        <!-- <nuxt-link 
             class="cursor-pointer font-semibold w-fit hover:text-primary transform hover:scale-105 transition-all duration-100"
         >
             PROJECTS
-        </nuxt-link>
-        <nuxt-link 
+        </nuxt-link> -->
+        <!-- <nuxt-link 
             class="cursor-pointer font-semibold w-fit hover:text-primary transform hover:scale-105 transition-all duration-100"
         >
             ABOUT
-        </nuxt-link>            
-        <nuxt-link 
+        </nuxt-link>             -->
+        <!-- <nuxt-link 
             class="cursor-pointer font-semibold w-fit hover:text-primary transform hover:scale-105 transition-all duration-100"
         >
             BLOG
-        </nuxt-link>            
+        </nuxt-link>             -->
         <a 
             href="https://soyboy.saajanpatel.co.uk"
             target="_blank"
@@ -30,11 +30,11 @@
         >
             RECIPES
         </a>
-        <nuxt-link 
+        <!-- <nuxt-link 
             class="cursor-pointer font-semibold w-fit hover:text-primary transform hover:scale-105 transition-all duration-100"
         >
             CONTACT
-        </nuxt-link>
+        </nuxt-link> -->
         </span>
   </div>
 </template>

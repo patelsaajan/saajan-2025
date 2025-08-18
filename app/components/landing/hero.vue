@@ -12,7 +12,7 @@
                     height="700"
                     width="900"
                     loading="lazy"
-                    class="w-[900px] h-[700px] object-cover"
+                    class="w-full md:w-[900px] aspect-3/2 object-cover"
                 />
             </div>
         </Transition>
