@@ -61,7 +61,7 @@ onMounted(() => {
 }
 
 .nav-slide-enter-from {
-    transform: translateY(100%);
+    transform: translateY(-300%);
 }
 .nav-slide-enter-to {
     transform: translateY(0);
