@@ -5,13 +5,13 @@
       class="flex gap-8"
     >
       <a href="https://github.com/patelsaajan">
-        <UIcon name="i-simple-icons-github" class="size-10 text-primary"/>
+        <UIcon name="i-simple-icons-github" class="size-10 text-primary hover:text-secondary transform hover:scale-105 transitionGroup-all duration-100"/>
       </a>
       <a href="https://www.linkedin.com/in/patelsaajan/">
-        <UIcon name="i-simple-icons-linkedin" class="size-10 text-primary" />
+        <UIcon name="i-simple-icons-linkedin" class="size-10 text-primary hover:text-secondary transform hover:scale-105 transitionGroup-all duration-100" />
       </a>
       <a href="https://www.instagram.com/soyboysaajan/">
-        <UIcon name="i-simple-icons-instagram" class="size-10 text-primary" />
+        <UIcon name="i-simple-icons-instagram" class="size-10 text-primary hover:text-soyboy transform hover:scale-105 transitionGroup-all duration-100" />
       </a>
     </div>
   </Transition>

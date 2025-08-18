@@ -5,6 +5,7 @@
 @theme {
     --color-primary     : oklch(0.5477 0.2174 22.64);
     --color-secondary   : oklch(0.62 0.15 210);
+    --color-soyboy      : #d89b43;
     --color-background  : oklch(0.98 0.01 95);
     --color-text-primary: oklch(0.05 0 0)
 }
