@@ -1,78 +1,82 @@
 <template>
     <div class="h-[calc(100vh-80px)]">
-      <div class="relative flex flex-col size-full justify-end">
+      <div class="relative flex flex-col size-full justify-between">
           <Transition name="hero-image">
             <div 
                 v-if="showHero"
-                class="absolute top-10 right-0 after:absolute after:top-0 after:left-0 after:size-full after:bg-primary/15 "
+                class="flex w-full justify-end mt-8"
             >
-                <NuxtImg
-                    fit="cover"
-                    src="/images/hero.jpg"
-                    height="700"
-                    width="900"
-                    loading="lazy"
-                    class="w-full sm:w-[750px] aspect-3/2 object-cover"
-                />
+              <span class="relative after:absolute after:top-0 after:left-0 after:size-full after:bg-primary/15">
+                  <NuxtImg
+                      fit="cover"
+                      src="/images/hero.jpg"
+                      height="700"
+                      width="900"
+                      loading="lazy"
+                      class="w-full sm:w-[750px] aspect-3/2 object-cover"
+                  />
+              </span>
             </div>
         </Transition>
-        <div class="overflow-hidden">
-          <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 mt-20">
-            <LandingMarquee />
-          </div>
-          <Transition name="hero-text">
-            <span 
-            v-if="showHero"
-            class="block text-4xl sm:text-5xl md:text-7xl xl:text-8xl 2xl:text-9xl uppercase"
-            >
-            Pragmatic.
-          </span>
-        </Transition>
-      </div>
-        <div class="relative">
-          <TransitionGroup name="hero-icon" tag="div">
-          <u-icon 
-            v-if="showIcons"
-            name="bxs:circle-half" 
-            class="icon-semi-circle md:-left-6 xl:-left-8 2xl:-left-12"
-            key="icon-1"
-            style="transition-delay: 0.6s"
-          />
-          <u-icon 
-            v-if="showIcons"
-            name="bxs:circle-half" 
-            class="icon-semi-circle md:-left-1 xl:-left-1 2xl:-left-2"
-            key="icon-2"
-            style="transition-delay: 0.4s"
-          />
-          <u-icon 
-            v-if="showIcons"
-            name="bxs:circle-half" 
-            class="icon-semi-circle md:left-4 xl:left-6 2xl:left-8"
-            key="icon-3"
-            style="transition-delay: 0.2s"
-          />
-        </TransitionGroup>
+        <div class="flex justify-center py-12">
+          <LandingMarquee />
+        </div>
+        <div>
           <div class="overflow-hidden">
-            <Transition name="hero-text" appear>
+            <Transition name="hero-text">
+              <span 
+              v-if="showHero"
+              class="block text-4xl sm:text-5xl md:text-7xl xl:text-8xl 2xl:text-9xl uppercase"
+              >
+              Pragmatic.
+            </span>
+          </Transition>
+        </div>
+          <div class="relative">
+            <TransitionGroup name="hero-icon" tag="div">
+            <u-icon 
+              v-if="showIcons"
+              name="bxs:circle-half" 
+              class="icon-semi-circle md:-left-6 xl:-left-8 2xl:-left-12"
+              key="icon-1"
+              style="transition-delay: 0.6s"
+            />
+            <u-icon 
+              v-if="showIcons"
+              name="bxs:circle-half" 
+              class="icon-semi-circle md:-left-1 xl:-left-1 2xl:-left-2"
+              key="icon-2"
+              style="transition-delay: 0.4s"
+            />
+            <u-icon 
+              v-if="showIcons"
+              name="bxs:circle-half" 
+              class="icon-semi-circle md:left-4 xl:left-6 2xl:left-8"
+              key="icon-3"
+              style="transition-delay: 0.2s"
+            />
+          </TransitionGroup>
+            <div class="overflow-hidden">
+              <Transition name="hero-text" appear>
+                <span 
+                  v-if="showHero" 
+                  class="block text-4xl sm:text-5xl md:text-7xl xl:text-8xl 2xl:text-9xl uppercase md:ml-30 xl:ml-40 2xl:ml-60 text-primary"
+                >
+                  Interdisciplinary.
+                </span>
+              </Transition>
+            </div>
+          </div>
+          <div class="overflow-hidden">
+            <Transition name="hero-text">
               <span 
                 v-if="showHero" 
-                class="block text-4xl sm:text-5xl md:text-7xl xl:text-8xl 2xl:text-9xl uppercase md:ml-30 xl:ml-40 2xl:ml-60 text-primary"
+                class="block text-4xl sm:text-5xl md:text-7xl xl:text-8xl 2xl:text-9xl uppercase"
               >
-                Interdisciplinary.
+                Impact-driven.
               </span>
             </Transition>
           </div>
-        </div>
-        <div class="overflow-hidden">
-          <Transition name="hero-text">
-            <span 
-              v-if="showHero" 
-              class="block text-4xl sm:text-5xl md:text-7xl xl:text-8xl 2xl:text-9xl uppercase"
-            >
-              Impact-driven.
-            </span>
-          </Transition>
         </div>
       </div>
     </div>
