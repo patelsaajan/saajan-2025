@@ -1,5 +1,5 @@
 <template>
-    <div class="h-[calc(100vh-80px)]">
+    <div class="md:h-[calc(100dvh-80px)]">
       <div class="relative flex flex-col size-full justify-between">
           <Transition name="hero-image">
             <div 

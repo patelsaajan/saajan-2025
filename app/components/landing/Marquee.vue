@@ -23,9 +23,7 @@ import { TransitionGroup } from 'vue';
 const showIcons = ref(false)
 
 onMounted(() => {
-  setTimeout(() => {
-    showIcons.value = true
-  }, 500)
+  showIcons.value = true
 })
 
   
