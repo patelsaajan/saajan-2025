@@ -7,7 +7,9 @@
     --color-secondary   : oklch(0.62 0.15 210);
     --color-soyboy      : #d89b43;
     --color-background  : oklch(0.98 0.01 95);
-    --color-text-primary: oklch(0.05 0 0)
+    --ui-bg             : oklch(0.98 0.01 95);
+    --color-text-primary: oklch(0.05 0 0);
+    --ui-text: oklch(0.05 0 0)
 }
 
 :root {
