@@ -35,11 +35,12 @@
         >
             RECIPES
         </a>
-        <!-- <nuxt-link 
+        <nuxt-link 
+            to="/contact"
             class="cursor-pointer font-semibold w-fit hover:text-primary transform hover:scale-105 transition-all duration-100"
         >
             CONTACT
-        </nuxt-link> -->
+        </nuxt-link>
         </span>
     </TransitionGroup>
   </div>
