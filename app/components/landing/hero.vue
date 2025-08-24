@@ -33,7 +33,7 @@
             </div>
           </Transition>
         </div>
-          <div class="relative py-4">
+          <div class="relative py-2">
             <TransitionGroup name="hero-icon" tag="div">
             <u-icon 
               v-if="showIcons"
