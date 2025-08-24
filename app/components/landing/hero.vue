@@ -26,9 +26,10 @@
             <Transition name="hero-text">
               <span 
               v-if="showHero"
-              class="block text-4xl sm:text-5xl md:text-7xl xl:text-8xl 2xl:text-9xl uppercase"
+              class="block text-4xl sm:text-5xl md:text-7xl xl:text-8xl 2xl:text-9xl uppercase font-bebas"
+              style="transition-delay: 0.2s"
               >
-              Pragmatic.
+              Strategic.
             </span>
           </Transition>
         </div>
@@ -57,24 +58,26 @@
             />
           </TransitionGroup>
             <div class="overflow-hidden">
-              <Transition name="hero-text" appear>
+              <Transition  name="hero-text" appear>
                 <span 
                   v-if="showHero" 
-                  class="block text-4xl sm:text-5xl md:text-7xl xl:text-8xl 2xl:text-9xl uppercase md:ml-30 xl:ml-40 2xl:ml-60 text-primary"
+                  class="block text-4xl sm:text-5xl md:text-7xl xl:text-8xl 2xl:text-9xl uppercase md:ml-30 xl:ml-40 2xl:ml-60 text-primary font-bebas"
+                  style="transition-delay: 0.4s"
                 >
-                  Interdisciplinary.
+                  Collaborative.
                 </span>
               </Transition>
             </div>
           </div>
           <div class="overflow-hidden">
             <Transition name="hero-text">
-              <span 
-                v-if="showHero" 
-                class="block text-4xl sm:text-5xl md:text-7xl xl:text-8xl 2xl:text-9xl uppercase"
-              >
-                Impact-driven.
-              </span>
+                              <span 
+                  v-if="showHero" 
+                  class="block text-4xl sm:text-5xl md:text-7xl xl:text-8xl 2xl:text-9xl uppercase font-bebas"
+                  style="transition-delay: 0.6s"
+                >
+                  Supportive.
+                </span>
             </Transition>
           </div>
         </div>

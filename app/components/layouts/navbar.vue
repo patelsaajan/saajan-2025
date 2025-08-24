@@ -1,71 +1,66 @@
 <template>
-  <div class="flex justify-between overflow-x-visible w-full">
-    <TransitionGroup name="nav-slide" class="overflow-y-hiddem">
-    <NuxtLink
-        v-if="showNav"
-        to="/"
-        class="cursor-pointer font-semibold w-fit hover:text-secondary transform hover:scale-105 transitionGroup-all duration-100"
-    >
-        SAAJAN PATEL
-    </NuxtLink>
-    <span 
-         v-if="showNav"
-        class="flex gap-8"
-    >
-        <!-- <nuxt-link 
-            class="cursor-pointer font-semibold w-fit hover:text-primary transform hover:scale-105 transition-all duration-100"
+    <div class="flex justify-between overflow-x-visible w-full">
+      <TransitionGroup name="nav-slide" class="overflow-y-hidden">
+        <NuxtLink
+          v-if="showNav"
+          to="/"
+          class="cursor-pointer font-semibold w-fit hover:text-secondary transform hover:scale-105 transition-all duration-100"
         >
+          SAAJAN PATEL
+        </NuxtLink>
+        <span v-if="showNav" class="flex gap-8">
+          <!-- Example future link -->
+          <!-- <NuxtLink 
+            class="cursor-pointer font-semibold w-fit hover:text-primary transform hover:scale-105 transition-all duration-100"
+            to="/projects"
+          >
             PROJECTS
-        </nuxt-link> -->
-        <!-- <nuxt-link 
+          </NuxtLink> -->
+  
+          <NuxtLink 
             class="cursor-pointer font-semibold w-fit hover:text-primary transform hover:scale-105 transition-all duration-100"
-        >
+            to="/about"
+          >
             ABOUT
-        </nuxt-link>             -->
-        <!-- <nuxt-link 
-            class="cursor-pointer font-semibold w-fit hover:text-primary transform hover:scale-105 transition-all duration-100"
-        >
-            BLOG
-        </nuxt-link>             -->
-        <a 
+          </NuxtLink>            
+  
+          <a 
             href="https://soyboy.saajanpatel.co.uk"
-            target="_blank"
-            rel="noopener noreferrer"
             class="cursor-pointer font-semibold w-fit hover:text-soyboy transform hover:scale-105 transition-all duration-100"
-        >
+          >
             RECIPES
-        </a>
-        <nuxt-link 
+          </a>
+  
+          <NuxtLink 
             to="/contact"
             class="cursor-pointer font-semibold w-fit hover:text-primary transform hover:scale-105 transition-all duration-100"
-        >
+          >
             CONTACT
-        </nuxt-link>
+          </NuxtLink>
         </span>
-    </TransitionGroup>
-  </div>
-</template>
-
-<script setup lang="ts">
-const showNav = ref(false);
-
-onMounted(() => {
+      </TransitionGroup>
+    </div>
+  </template>
+  
+  <script setup lang="ts">
+  const showNav = ref(false)
+  
+  onMounted(() => {
     showNav.value = true
-})
-
+  })
+  </script>
   
-</script>
-
-<style>
-.nav-slide-enter-active {
+  <style>
+  .nav-slide-enter-active {
     transition: transform 1s ease;
-}
-
-.nav-slide-enter-from {
-    transform: translateY(-300%);
-}
-.nav-slide-enter-to {
-    transform: translateY(0);
-}
+  }
   
+  .nav-slide-enter-from {
+    transform: translateY(-300%);
+  }
+  
+  .nav-slide-enter-to {
+    transform: translateY(0);
+  }
   </style>
+  
