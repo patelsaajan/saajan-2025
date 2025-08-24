@@ -26,7 +26,10 @@
             :default-value="4"
             :items="workItems"
             size="2xl"
-            :ui="{ item: 'md:text-justify' }"
+            :ui="{ 
+              item: 'md:text-justify',
+              indicator: 'text-background!',
+             }"
           />
       <h2>Education</h2>
       <span class="relative after:absolute after:top-0 after:left-0 after:size-full after:bg-secondary/5">
@@ -45,7 +48,10 @@
             :default-value="4"
             :items="educationItems"
             size="2xl"
-            :ui="{ item: 'md:text-justify' }"
+            :ui="{
+              item: 'md:text-justify',
+              indicator: 'text-background!',
+            }"
           />
     </div>
 </template>

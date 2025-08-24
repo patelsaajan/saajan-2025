@@ -60,7 +60,7 @@
               icon="i-lucide-rocket"
               loading-auto
               loading-icon="i-lucide-loader"
-              class="cursor-pointer w-full justify-center"
+              class="cursor-pointer w-full justify-center text-background"
               variants="primary"
             >
               Submit
@@ -81,7 +81,7 @@
         </p>
 
         <UButton
-          class="mt-6 w-fit mx-auto cursor-pointer"
+          class="mt-6 w-fit mx-auto cursor-pointer text-background"
           icon="i-lucide-home"
           variant="solid"
           color="primary"
