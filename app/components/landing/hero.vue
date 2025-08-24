@@ -24,35 +24,35 @@
         <div>
           <div class="overflow-hidden">
             <Transition name="hero-text">
-              <span 
+              <div 
               v-if="showHero"
-              class="block text-4xl sm:text-5xl md:text-7xl xl:text-8xl 2xl:text-9xl uppercase font-bebas"
+              class="block -mb-2 text-4xl sm:text-5xl md:text-6xl xl:text-8xl 2xl:text-9xl uppercase font-bebas"
               style="transition-delay: 0.2s"
               >
               Strategic.
-            </span>
+            </div>
           </Transition>
         </div>
-          <div class="relative">
+          <div class="relative py-4">
             <TransitionGroup name="hero-icon" tag="div">
             <u-icon 
               v-if="showIcons"
               name="bxs:circle-half" 
-              class="icon-semi-circle md:-left-6 xl:-left-8 2xl:-left-12"
+              class="icon-semi-circle -left-4 md:-left-6 xl:-left-8 2xl:-left-12"
               key="icon-1"
               style="transition-delay: 0.6s"
             />
             <u-icon 
               v-if="showIcons"
               name="bxs:circle-half" 
-              class="icon-semi-circle md:-left-1 xl:-left-1 2xl:-left-2"
+              class="icon-semi-circle -left-1 md:-left-1 xl:-left-1 2xl:-left-2"
               key="icon-2"
               style="transition-delay: 0.4s"
             />
             <u-icon 
               v-if="showIcons"
               name="bxs:circle-half" 
-              class="icon-semi-circle md:left-4 xl:left-6 2xl:left-8"
+              class="icon-semi-circle left-2 md:left-4 xl:left-6 2xl:left-8"
               key="icon-3"
               style="transition-delay: 0.2s"
             />
@@ -61,7 +61,7 @@
               <Transition  name="hero-text" appear>
                 <span 
                   v-if="showHero" 
-                  class="block text-4xl sm:text-5xl md:text-7xl xl:text-8xl 2xl:text-9xl uppercase md:ml-30 xl:ml-40 2xl:ml-60 text-primary font-bebas"
+                  class="block -mb-2 text-4xl sm:text-5xl md:text-6xl xl:text-8xl 2xl:text-9xl uppercase ml-14 md:ml-20 xl:ml-40 2xl:ml-60 text-primary font-bebas"
                   style="transition-delay: 0.4s"
                 >
                   Collaborative.
@@ -73,7 +73,7 @@
             <Transition name="hero-text">
                               <span 
                   v-if="showHero" 
-                  class="block text-4xl sm:text-5xl md:text-7xl xl:text-8xl 2xl:text-9xl uppercase font-bebas"
+                  class="block -mb-2 text-4xl sm:text-5xl md:text-6xl xl:text-8xl 2xl:text-9xl uppercase font-bebas"
                   style="transition-delay: 0.6s"
                 >
                   Supportive.
