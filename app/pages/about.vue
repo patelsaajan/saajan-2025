@@ -67,13 +67,13 @@ const workItems = ref<TimelineItem[]>([
   },
   {
     date: 'Feb 2024 – Jun 2024',
-    title: 'Junior Intern',
+    title: 'Junior Intern - Gradguru',
     description: 'Built a React + Firebase blog application with CRUD functionality, while improving DevOps skills through Git workflows and agile practices.',
     icon: 'i-lucide-code'
   },
   {
     date: 'Jan 2024 – Feb 2024',
-    title: 'Data Consultant',
+    title: 'Data Consultant - Rockborne',
     description: 'Delivered BI dashboards and database solutions, including government traffic data analysis in Power BI and a PostgreSQL football league ER model.',
     icon: 'lucide:database'
   }
