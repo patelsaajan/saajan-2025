@@ -7,7 +7,7 @@
             src="/images/hero.jpg"
             height="700"
             width="900"
-            loading="lazy"
+            preload
             class="w-full sm:w-[750px] aspect-3/2 object-cover"
         />
       </span>
