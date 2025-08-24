@@ -12,6 +12,14 @@
         />
       </span>
       <span class="text-justify">I’m a software developer with a background in engineering, passionate about creating flexible, user-friendly web solutions. I enjoy working on projects that help small businesses bring their stories to life and showcase their work in a way that captures attention and supports growth. Working across WordPress, Vue, React, and PHP, I build websites, custom plugins, and web apps that are reliable, scalable, and designed to make complex tasks feel simple.</span>
+      <div class="flex flex-row w-full justify-between">
+        <UIcon name="mdi:vuejs" class="size-10 text-primary"/>
+        <UIcon name="mdi:language-typescript" class="size-10 text-primary"/>
+        <UIcon name="mdi:language-php" class="size-10 text-primary"/>
+        <UIcon name="mdi:wordpress" class="size-10 text-primary"/>
+        <UIcon name="mdi:react" class="size-10 text-primary"/>
+        <UIcon name="mdi:sql-query" class="size-10 text-primary"/>
+      </div>
       <h2>Work Experience</h2>
         <UTimeline
             color="primary"
