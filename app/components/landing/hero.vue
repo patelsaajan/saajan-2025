@@ -13,7 +13,7 @@
                       height="700"
                       width="900"
                       preload
-                      class="w-full sm:w-[750px] aspect-3/2 object-cover"
+                      class="w-full sm:w-[750px] aspect-3/2 object-cover rounded"
                   />
               </span>
             </div>

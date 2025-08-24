@@ -8,7 +8,7 @@
             height="700"
             width="900"
             preload
-            class="w-full sm:w-[750px] aspect-3/2 object-cover"
+            class="w-full sm:w-[750px] aspect-3/2 object-cover rounded"
         />
       </span>
       <span class="text-justify">I’m a software developer with a background in engineering, passionate about creating flexible, user-friendly web solutions. I enjoy working on projects that help small businesses bring their stories to life and showcase their work in a way that captures attention and supports growth. Working across WordPress, Vue, React, and PHP, I build websites, custom plugins, and web apps that are reliable, scalable, and designed to make complex tasks feel simple.</span>
@@ -39,7 +39,7 @@
             height="700"
             width="900"
             loading="lazy"
-            class="w-full sm:w-[750px] aspect-3/2 object-cover"
+            class="w-full sm:w-[750px] aspect-3/2 object-cover rounded"
         />
       </span>
       <span class="text-justify">My engineering education taught me to think beyond simply solving a problem—considering why the problem exists, how it impacts people, and what long-term solutions are most effective. I was drawn to this field not just for the technical challenge, but because I’m people-focused and motivated to create solutions that make a positive difference, including contributing to sustainability and protecting the environment. Through hands-on projects and internships, I learned to combine technical skill with thoughtful design, ensuring that solutions are practical, impactful, and responsible.</span>

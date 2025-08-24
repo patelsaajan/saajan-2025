@@ -1,7 +1,7 @@
 <template>
   <div class="my-32 flex justify-center mx-auto h-full max-w-[800px]">
     <div class="flex flex-col items-center gap-8">
-
+      <h1 class="w-full">Contact</h1>
       <!-- Contact Form -->
       <UForm
         v-if="showForm"
