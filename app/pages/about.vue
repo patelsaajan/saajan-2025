@@ -21,7 +21,7 @@
             :ui="{ item: 'md:text-justify' }"
           />
       <h2>Education</h2>
-      <span class="relative after:absolute after:top-0 after:left-0 after:size-full after:bg-secondary/15">
+      <span class="relative after:absolute after:top-0 after:left-0 after:size-full after:bg-secondary/5">
         <NuxtImg
             fit="cover"
             src="/images/graduation.jpg"
