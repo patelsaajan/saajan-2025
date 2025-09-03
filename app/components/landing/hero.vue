@@ -9,7 +9,7 @@
               <span class="relative after:absolute after:top-0 after:left-0 after:size-full after:bg-primary/15">
                   <NuxtImg
                       fit="cover"
-                      src="/images/hero.jpg"
+                      src="/images/asia.jpeg"
                       height="700"
                       width="900"
                       preload
@@ -76,7 +76,7 @@
                   class="block text-4xl sm:text-5xl md:text-6xl xl:text-8xl 2xl:text-9xl font-rubik"
                   style="transition-delay: 0.6s"
                 >
-                  SUPPORTIVE.
+                  ADAPTIVE.
                 </span>
             </Transition>
           </div>
