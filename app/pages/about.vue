@@ -60,7 +60,7 @@
 
 const workItems = ref<TimelineItem[]>([
   {
-    date: 'Aug 2024 – Current',
+    date: 'Aug 2024 – Jan 2026',
     title: 'Developer - Hoppstudio',
     description: 'Developing modern web solutions across WordPress, Vue, GraphQL, and APIs, including a white-label learning platform, a headless PWA, and a customisable match centre, while leading workflow improvements and deployment practices.',
     icon: 'lucide:laptop'
