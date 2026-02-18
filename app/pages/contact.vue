@@ -100,6 +100,10 @@
 import { contactFormSchema, type ContactForm } from '~/schemas/contactForm'
 import type { FormSubmitEvent } from '@nuxt/ui'
 
+useHead({
+  title: 'Contact'
+})
+
 const showForm = ref(true)
 const submittedName = ref('')
 const submittedEmail = ref('')

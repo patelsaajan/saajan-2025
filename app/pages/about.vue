@@ -58,6 +58,10 @@
 
 <script setup lang="ts">
 
+useHead({
+  title: 'About'
+})
+
 const workItems = ref<TimelineItem[]>([
   {
     date: 'Aug 2024 – Jan 2026',
