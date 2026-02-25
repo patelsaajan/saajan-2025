@@ -29,7 +29,7 @@
               class="block text-4xl sm:text-5xl md:text-6xl xl:text-8xl 2xl:text-9xl uppercase font-rubik"
               style="transition-delay: 0.2s"
               >
-              Strategic.
+              Hi my name is
             </div>
           </Transition>
         </div>
@@ -64,7 +64,7 @@
                   class="block text-4xl sm:text-5xl md:text-6xl xl:text-8xl 2xl:text-9xl ml-14 md:ml-20 xl:ml-40 2xl:ml-60 text-primary font-rubik"
                   style="transition-delay: 0.4s"
                 >
-                  COLLABORATIVE.
+                  SAAJAN PATEL
               </div>
               </Transition>
             </div>
@@ -76,7 +76,7 @@
                   class="block text-4xl sm:text-5xl md:text-6xl xl:text-8xl 2xl:text-9xl font-rubik"
                   style="transition-delay: 0.6s"
                 >
-                  ADAPTIVE.
+                  WELCOME TO MY SITE
                 </span>
             </Transition>
           </div>
