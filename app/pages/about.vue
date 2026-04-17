@@ -4,7 +4,7 @@
       <span class="relative after:absolute after:top-0 after:left-0 after:size-full after:bg-primary/15">
         <NuxtImg
             fit="cover"
-            src="/images/hero.jpg"
+            src="/images/asia.jpeg"
             height="700"
             width="900"
             preload
